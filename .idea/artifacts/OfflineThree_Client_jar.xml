@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OfflineThree Client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OfflineThree_Client_jar</output-path>
+    <root id="archive" name="OfflineThree.jar">
+      <element id="module-output" name="OfflineThree" />
+    </root>
+  </artifact>
+</component>

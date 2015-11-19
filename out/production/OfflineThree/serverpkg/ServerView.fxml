@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="serverpkg.ServerController">
+   <children>
+      <TableView fx:id="clientTable" editable="true" layoutX="55.0" layoutY="100.0" prefHeight="244.0" prefWidth="200.0">
+         <columns>
+            <TableColumn fx:id="clientName" prefWidth="101.0" text="Name" />
+            <TableColumn fx:id="clientAction" prefWidth="98.0" text="Action" />
+         </columns></TableView>
+      <Label layoutX="127.0" layoutY="55.0" text="Client List">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="55.0" text="Message Box">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="msgBox" layoutX="300.0" layoutY="100.0" prefHeight="244.0" prefWidth="261.0" promptText="Write message and send" />
+   </children>
+</AnchorPane>
